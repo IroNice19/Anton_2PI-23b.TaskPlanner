@@ -1,0 +1,14 @@
+D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.Domain.Models\bin\Debug\net8.0\IroNice19.TaskPlanner.Domain.Models.exe
+D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.Domain.Models\bin\Debug\net8.0\IroNice19.TaskPlanner.Domain.Models.deps.json
+D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.Domain.Models\bin\Debug\net8.0\IroNice19.TaskPlanner.Domain.Models.runtimeconfig.json
+D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.Domain.Models\bin\Debug\net8.0\IroNice19.TaskPlanner.Domain.Models.dll
+D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.Domain.Models\bin\Debug\net8.0\IroNice19.TaskPlanner.Domain.Models.pdb
+D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.Domain.Models\obj\Debug\net8.0\IroNice19.TaskPlanner.Domain.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.Domain.Models\obj\Debug\net8.0\IroNice19.TaskPlanner.Domain.Models.AssemblyInfoInputs.cache
+D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.Domain.Models\obj\Debug\net8.0\IroNice19.TaskPlanner.Domain.Models.AssemblyInfo.cs
+D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.Domain.Models\obj\Debug\net8.0\IroNice19.TaskPlanner.Domain.Models.csproj.CoreCompileInputs.cache
+D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.Domain.Models\obj\Debug\net8.0\IroNice19.TaskPlanner.Domain.Models.dll
+D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.Domain.Models\obj\Debug\net8.0\refint\IroNice19.TaskPlanner.Domain.Models.dll
+D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.Domain.Models\obj\Debug\net8.0\IroNice19.TaskPlanner.Domain.Models.pdb
+D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.Domain.Models\obj\Debug\net8.0\IroNice19.TaskPlanner.Domain.Models.genruntimeconfig.cache
+D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.Domain.Models\obj\Debug\net8.0\ref\IroNice19.TaskPlanner.Domain.Models.dll

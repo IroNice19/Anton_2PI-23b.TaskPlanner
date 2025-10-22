@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "IroNice19.TaskPlanner.Domain.Logic/1.0.0": {
+        "dependencies": {
+          "IroNice19.TaskPlanner.Domain.Models": "1.0.0"
+        },
+        "runtime": {
+          "IroNice19.TaskPlanner.Domain.Logic.dll": {}
+        }
+      },
+      "IroNice19.TaskPlanner.Domain.Models/1.0.0": {
+        "runtime": {
+          "IroNice19.TaskPlanner.Domain.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IroNice19.TaskPlanner.Domain.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IroNice19.TaskPlanner.Domain.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
