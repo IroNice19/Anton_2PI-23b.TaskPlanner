@@ -24,3 +24,9 @@ D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.ConsoleRunner\bin\Deb
 D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.ConsoleRunner\bin\Debug\net8.0\IroNice19.TaskPlanner.Domain.Models.pdb
 D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.ConsoleRunner\obj\Debug\net8.0\IroNice19.TaskPlanner.ConsoleRunner.csproj.AssemblyReference.cache
 D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.ConsoleRunner\obj\Debug\net8.0\IroNice1.EF2712D9.Up2Date
+D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.ConsoleRunner\obj\Debug\net8.0\IroNice19.TaskPlanner.ConsoleRunner.sourcelink.json
+D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.ConsoleRunner\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.ConsoleRunner\bin\Debug\net8.0\IroNice19.TaskPlanner.DataAccess.Abstractions.dll
+D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.ConsoleRunner\bin\Debug\net8.0\IroNice19.TaskPlanner.DataAccess.dll
+D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.ConsoleRunner\bin\Debug\net8.0\IroNice19.TaskPlanner.DataAccess.pdb
+D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.ConsoleRunner\bin\Debug\net8.0\IroNice19.TaskPlanner.DataAccess.Abstractions.pdb

@@ -1,33 +1,39 @@
 ﻿using IroNice19.TaskPlanner.Domain.Models;
-using System;
-using System.Collections.Generic;
+using IroNice19.TaskPlanner.DataAccess.Abstractions;
+
+using System.Linq;
 
 namespace IroNice19.TaskPlanner.Domain.Logic
 {
     public class SimpleTaskPlanner
     {
-        public WorkItem[] CreatePlan(WorkItem[] workItems)
+        private readonly IWorkItemsRepository _repository;
+
+        public SimpleTaskPlanner(IWorkItemsRepository repository)
         {
-            // Конвертація масиву в List
-            List<WorkItem> workList = workItems.ToList();
+            _repository = repository;
+        }
 
-            // Сортування за допомогою Comparison<T>
-            workList.Sort((x, y) =>
-            {
-                // i. Priority - за спаданням
-                int priorityComparison = y.Priority.CompareTo(x.Priority);
-                if (priorityComparison != 0) return priorityComparison;
+        public WorkItem[] CreatePlan()
+        {
+            var items = _repository.GetAll()
+                .Where(item => !item.IsCompleted)  // ігноруємо завершені (Завдання 5)
+                .ToList();
 
-                // ii. DueDate - за зростанням
-                int dueDateComparison = x.DueDate.CompareTo(y.DueDate);
-                if (dueDateComparison != 0) return dueDateComparison;
+            items.Sort(CompareWorkItems);
 
-                // iii. Title - в алфавітному порядку
-                return string.Compare(x.Title, y.Title, StringComparison.Ordinal);
-            });
+            return items.ToArray();
+        }
 
-            // Конвертація посортованого List у масив
-            return workList.ToArray();
+        private static int CompareWorkItems(WorkItem first, WorkItem second)
+        {
+            int priorityComparison = second.Priority.CompareTo(first.Priority);
+            if (priorityComparison != 0) return priorityComparison;
+
+            int dueDateComparison = first.DueDate.CompareTo(second.DueDate);
+            if (dueDateComparison != 0) return dueDateComparison;
+
+            return string.Compare(first.Title, second.Title, StringComparison.OrdinalIgnoreCase);
         }
     }
 }

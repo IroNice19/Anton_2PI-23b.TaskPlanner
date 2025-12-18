@@ -10,6 +10,7 @@
   <ItemGroup>
     <ProjectReference Include="..\IroNice19.TaskPlanner.Domain.Logic\IroNice19.TaskPlanner.Domain.Logic.csproj" />
     <ProjectReference Include="..\IroNice19.TaskPlanner.Domain.Models\IroNice19.TaskPlanner.Domain.Models.csproj" />
+    <ProjectReference Include="..\IronNice19.TaskPlanner.DataAccess\IroNice19.TaskPlanner.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

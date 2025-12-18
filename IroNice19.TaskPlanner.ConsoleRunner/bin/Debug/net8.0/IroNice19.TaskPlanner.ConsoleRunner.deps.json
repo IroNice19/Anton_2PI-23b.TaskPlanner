@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "IroNice19.TaskPlanner.ConsoleRunner/1.0.0": {
         "dependencies": {
+          "IroNice19.TaskPlanner.DataAccess": "1.0.0",
           "IroNice19.TaskPlanner.Domain.Logic": "1.0.0",
           "IroNice19.TaskPlanner.Domain.Models": "1.0.0"
         },
@@ -15,8 +16,41 @@
           "IroNice19.TaskPlanner.ConsoleRunner.dll": {}
         }
       },
+      "Newtonsoft.Json/13.0.4": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.4.30916"
+          }
+        }
+      },
+      "IroNice19.TaskPlanner.DataAccess/1.0.0": {
+        "dependencies": {
+          "IroNice19.TaskPlanner.DataAccess.Abstractions": "1.0.0",
+          "IroNice19.TaskPlanner.Domain.Models": "1.0.0",
+          "Newtonsoft.Json": "13.0.4"
+        },
+        "runtime": {
+          "IroNice19.TaskPlanner.DataAccess.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "IroNice19.TaskPlanner.DataAccess.Abstractions/1.0.0": {
+        "dependencies": {
+          "IroNice19.TaskPlanner.Domain.Models": "1.0.0"
+        },
+        "runtime": {
+          "IroNice19.TaskPlanner.DataAccess.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "IroNice19.TaskPlanner.Domain.Logic/1.0.0": {
         "dependencies": {
+          "IroNice19.TaskPlanner.DataAccess.Abstractions": "1.0.0",
           "IroNice19.TaskPlanner.Domain.Models": "1.0.0"
         },
         "runtime": {
@@ -38,6 +72,23 @@
   },
   "libraries": {
     "IroNice19.TaskPlanner.ConsoleRunner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pdgNNMai3zv51W5aq268sujXUyx7SNdE2bj1wZcWjAQrKMFZV260lbqYop1d2GM67JI1huLRwxo9ZqnfF/lC6A==",
+      "path": "newtonsoft.json/13.0.4",
+      "hashPath": "newtonsoft.json.13.0.4.nupkg.sha512"
+    },
+    "IroNice19.TaskPlanner.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IroNice19.TaskPlanner.DataAccess.Abstractions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

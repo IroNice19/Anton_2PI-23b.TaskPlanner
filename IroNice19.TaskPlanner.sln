@@ -4,10 +4,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IroNice19.TaskPlanner.ConsoleRunner", "IroNice19.TaskPlanner.ConsoleRunner\IroNice19.TaskPlanner.ConsoleRunner.csproj", "{EAFC390D-C7D6-445F-A60A-D02C60026D1A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{73E7EE75-BAFD-4E3C-AA17-00D5DBB0214E} = {73E7EE75-BAFD-4E3C-AA17-00D5DBB0214E}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IroNice19.TaskPlanner.Domain.Models", "IroNice19.TaskPlanner.Domain.Models\IroNice19.TaskPlanner.Domain.Models.csproj", "{4675E9A9-AA9A-4176-8156-2407F5111859}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IroNice19.TaskPlanner.Domain.Logic", "IroNice19.TaskPlanner.Domain.Logic\IroNice19.TaskPlanner.Domain.Logic.csproj", "{C2E760F7-EFE9-4582-88B5-1142DEA85078}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BCB0428C-6B11-4B9B-8F3E-A86B8390B897} = {BCB0428C-6B11-4B9B-8F3E-A86B8390B897}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IroNice19.TaskPlanner.DataAccess.Abstractions", "IronNice19.TaskPlanner.DataAccess.Abstractions\IroNice19.TaskPlanner.DataAccess.Abstractions.csproj", "{BCB0428C-6B11-4B9B-8F3E-A86B8390B897}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4675E9A9-AA9A-4176-8156-2407F5111859} = {4675E9A9-AA9A-4176-8156-2407F5111859}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IroNice19.TaskPlanner.DataAccess", "IronNice19.TaskPlanner.DataAccess\IroNice19.TaskPlanner.DataAccess.csproj", "{73E7EE75-BAFD-4E3C-AA17-00D5DBB0214E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4675E9A9-AA9A-4176-8156-2407F5111859} = {4675E9A9-AA9A-4176-8156-2407F5111859}
+		{BCB0428C-6B11-4B9B-8F3E-A86B8390B897} = {BCB0428C-6B11-4B9B-8F3E-A86B8390B897}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{83E4351B-4F76-4B6B-BBE8-3BCB46A5E802}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IroNice19.TaskPlanner.Domain.Logic.Tests", "IroNice19.TaskPlanner.Domain.Logic.Tests\IroNice19.TaskPlanner.Domain.Logic.Tests.csproj", "{D42708AE-2E7E-4CF3-8517-0F3681D1B2DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +50,27 @@ Global
 		{C2E760F7-EFE9-4582-88B5-1142DEA85078}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2E760F7-EFE9-4582-88B5-1142DEA85078}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2E760F7-EFE9-4582-88B5-1142DEA85078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB0428C-6B11-4B9B-8F3E-A86B8390B897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB0428C-6B11-4B9B-8F3E-A86B8390B897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB0428C-6B11-4B9B-8F3E-A86B8390B897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB0428C-6B11-4B9B-8F3E-A86B8390B897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73E7EE75-BAFD-4E3C-AA17-00D5DBB0214E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E7EE75-BAFD-4E3C-AA17-00D5DBB0214E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E7EE75-BAFD-4E3C-AA17-00D5DBB0214E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E7EE75-BAFD-4E3C-AA17-00D5DBB0214E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D42708AE-2E7E-4CF3-8517-0F3681D1B2DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D42708AE-2E7E-4CF3-8517-0F3681D1B2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D42708AE-2E7E-4CF3-8517-0F3681D1B2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D42708AE-2E7E-4CF3-8517-0F3681D1B2DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4675E9A9-AA9A-4176-8156-2407F5111859} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+		{C2E760F7-EFE9-4582-88B5-1142DEA85078} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+		{BCB0428C-6B11-4B9B-8F3E-A86B8390B897} = {83E4351B-4F76-4B6B-BBE8-3BCB46A5E802}
+		{73E7EE75-BAFD-4E3C-AA17-00D5DBB0214E} = {83E4351B-4F76-4B6B-BBE8-3BCB46A5E802}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FE636A53-8B06-4B6F-87C6-7746955339DD}

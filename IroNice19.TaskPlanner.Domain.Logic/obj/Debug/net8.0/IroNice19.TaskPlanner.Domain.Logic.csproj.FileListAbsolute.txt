@@ -19,3 +19,6 @@ D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.Domain.Logic\obj\Debu
 D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.Domain.Logic\obj\Debug\net8.0\IroNice19.TaskPlanner.Domain.Logic.pdb
 D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.Domain.Logic\obj\Debug\net8.0\IroNice19.TaskPlanner.Domain.Logic.genruntimeconfig.cache
 D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.Domain.Logic\obj\Debug\net8.0\ref\IroNice19.TaskPlanner.Domain.Logic.dll
+D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.Domain.Logic\obj\Debug\net8.0\IroNice19.TaskPlanner.Domain.Logic.sourcelink.json
+D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.Domain.Logic\bin\Debug\net8.0\IroNice19.TaskPlanner.DataAccess.Abstractions.dll
+D:\C++_KG_Labs\IroNice19.TaskPlanner\IroNice19.TaskPlanner.Domain.Logic\bin\Debug\net8.0\IroNice19.TaskPlanner.DataAccess.Abstractions.pdb
