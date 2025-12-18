@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IroNice19.TaskPlanner.Domain.Models\IroNice19.TaskPlanner.Domain.Models.csproj" />
+    <ProjectReference Include="..\IronNice19.TaskPlanner.DataAccess.Abstractions\IroNice19.TaskPlanner.DataAccess.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
